@@ -64,7 +64,7 @@ const Quiz = () => {
 			...selectedOptions,
 			[questionIndex]: event.target.value,
 		};
-		console.log(updatedSelectedOptions);
+		console.log("updated options: ", updatedSelectedOptions);
 		setSelectedOptions(updatedSelectedOptions);
 		const numQuestionsAttempted = Object.keys(
 			updatedSelectedOptions
